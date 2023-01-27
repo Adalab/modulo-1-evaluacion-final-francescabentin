@@ -1,8 +1,11 @@
 .section__white {
-    margin: 20px 15px;
+    margin: 20px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    @media screen and (min-width: 1000px) {
+            margin: 20px 140px;
+        }
 
     &__p-title {
         font-size: 0.8rem;
@@ -36,6 +39,37 @@
         border-style: solid;
         border-radius: 35px;
         max-width: 160px;
+    }
+}
+
+.section__grey {
+
+    background-color: $color-section;
+    padding: 10px 30px;
+
+    &__grid {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px 100px;
+
+    }
+
+    &__h2 {
+        font-family: $font-main-title;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__h3 {
+        font-family: $font-main-title;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    &__p {
+        font-family: $font-general;
+        font-size: 1rem;
     }
 
 
