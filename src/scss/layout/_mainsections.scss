@@ -39,19 +39,25 @@
         border-style: solid;
         border-radius: 35px;
         max-width: 160px;
+        margin-bottom: 30px;
     }
 }
 
 .section__grey {
 
     background-color: $color-section;
-    padding: 10px 30px;
+    padding: 20px 30px;
 
     &__grid {
-        margin-top: 50px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 100px 100px;
-
+    display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 140px 140px 140px;
+        align-items: center;
+        padding: 0 30px;
+    }
+    
+    &__elements {
+        text-align: center;
     }
 
     &__h2 {
@@ -59,6 +65,8 @@
         font-size: 1.4rem;
         font-weight: bold;
         text-align: center;
+        margin-top: 20px;
+            margin-bottom: 30px;
     }
 
     &__h3 {
@@ -69,8 +77,11 @@
 
     &__p {
         font-family: $font-general;
-        font-size: 1rem;
+        font-size: 1.1rem;
+            padding-top: 10px;
+            line-height: 1.4;
     }
 
 
+    
 }
