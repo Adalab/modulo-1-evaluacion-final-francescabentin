@@ -1,6 +1,44 @@
 .header {
   background-image: url(../images/cover.jpeg);
-  background-size: cover;
-  background-position: 45%;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: 25% 15%;
+  background-origin: border-box;
   height: 528px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+
+    &__menu{
+        background-color: $color-elements;
+        width: 37px;
+        height: 34px;
+        position:fixed;
+        left: 0;
+        top:0;
+        padding: 10px;
+          
+ }
+    &__h1 {
+      @extend .header_style;
+      font-family: $font-main-title;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 1.60;
+      }
+
+   &__p {
+     @extend .header_style;
+     font-size: 1rem;
+     text-transform: none;
+     font-family: $font-general;
+     font-weight: lighter;
+     padding: 5px 30px;
+     line-height: 1.20;
+     margin-bottom: 20PX;
+     }
+}
+
