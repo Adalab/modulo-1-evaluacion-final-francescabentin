@@ -21,8 +21,8 @@
         left: 0;
         top:0;
         padding: 10px;
-          
  }
+
     &__h1 {
       @extend .header_style;
       font-family: $font-main-title;
@@ -56,13 +56,25 @@
         font-size: 1.5rem;
         padding-top: 0;
         width: 400px;
-      
         }
-        &_arrow {
+}
+
+
+
+
+&__arrow {
            background-color: $color-white;
-           border-radius: 50px;
-          margin-bottom: 30px;
-          }
->>>>>>> Develop
+          border-radius: 50px;
+          width: 37px;
+            height: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          
+            &__img {
+        vertical-align: middle;
+          height: 100%;
+          width: 50%;
+}
 }
 }
