@@ -1,27 +1,27 @@
 .header {
   background-image: url(../images/cover.jpeg);
   background-color: $color-elements;
-    height: 100vh;
-  background-size: cover ;
+  height: 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 40%;
   background-origin: border-box;
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: center;
   padding-bottom: 20px;
 
 
-    &__menu{
-        background-color: $color-elements;
-        width: 37px;
-        height: 34px;
-        position:fixed;
-        left: 0;
-        top:0;
-        padding: 10px;
- }
+  &__menu {
+      background-color: $color-elements;
+      width: 37px;
+      height: 34px;
+    position: fixed;
+      left: 0;
+    top: 0;
+      padding: 10px;
+    }
 
     &__h1 {
       @extend .header_style;
@@ -30,51 +30,46 @@
       text-transform: uppercase;
       font-weight: bold;
       line-height: 1.60;
-      @media screen and (min-width: 700px) {
-          font-size: 4.5rem;
-          line-height: 1.40;
-        }
-      }
 
-   &__p {
-     @extend .header_style;
-     font-size: 1rem;
-     text-transform: none;
-     font-family: $font-general;
-     font-weight: lighter;
-     padding: 5px 30px;
-     line-height: 1.20;
-     margin-bottom: 20PX;
-<<<<<<< HEAD
-     }
-    
-&_arrow {
-  background-color: $color-white;
-  border-radius: 50px;
-=======
     @media screen and (min-width: 700px) {
-        font-size: 1.5rem;
+        font-size: 4.5rem;
+        line-height: 1.40;
+      }
+    }
+
+    &__p {
+      @extend .header_style;
+      font-size: 1rem;
+      text-transform: none;
+      font-family: $font-general;
+      font-weight: lighter;
+      padding: 5px 30px;
+      line-height: 1.20;
+      margin-bottom: 20PX;
+
+    @media screen and (min-width: 700px) {
+      font-size: 1.5rem;
         padding-top: 0;
         width: 400px;
-        }
-}
+      }
+      }
 
 
 
 
-&__arrow {
-           background-color: $color-white;
-          border-radius: 50px;
-          width: 37px;
-            height: 35px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          
-            &__img {
+    &__arrow {
+      background-color: $color-white;
+      border-radius: 50px;
+      width: 37px;
+      height: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      &__img {
         vertical-align: middle;
-          height: 100%;
-          width: 50%;
-}
-}
+        height: 100%;
+        width: 50%;
+      }
+    }
 }
