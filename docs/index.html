@@ -14,20 +14,23 @@
 
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header" id="header">
 
         <div class="header__menu">
 
-          <img class="header__menu__icon" src="./assets/images/ico-menu.svg" alt="menu-icon">
+          <a href="https://adalab.es/">
+            <img class="header__menu__icon" src="./assets/images/ico-menu.svg" href="https://adalab.es/" alt="menu-icon"></a>
 
         </div>
 
         <h1 class="header__h1">hasta un 50% de descuento</h1>
         <p class="header__p">Ya estan aquí las ofertas de fin de temporada</p>
 
-        <div class="header__arrow">
+        <a href="#section__grey">
+          <div class="header__arrow">
           <img class="header__arrow__img" src="./assets/images/arrow.svg" alt="arrow-icon">
         </div>
+        </a>
 
 
       </header>
@@ -45,7 +48,7 @@
 
           </section>
 
-          <section class="section__grey">
+          <section id="section__grey" class="section__grey">
 
               <h2 class="section__grey__h2">Año nuevo, movimientos nuevos</h2>
       <div class="section__grey__grid">
@@ -71,26 +74,48 @@
       </main>
       
       <footer class="footer">
-          <ul class="footer__pages">
-              <li>zapatillas</li>
-              <li>ropa</li>
-              <li>niño/a</li>
-              <li>destacados</li>
-              <li>tips</li>
-          </ul>
-          <ul class="footer__social">
+          <a href="#header">
+          <div class="footer__circle">
+              <img class="footer__circle__img" src="./assets/images/ico-arrow.svg" alt="arrow-icon">
+          </div>
+          </a>
           
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>youtube</li>
+          <div class="footer__flex">
+              <ul class="footer__flex__pages">
+              <a href="https://adalab.es/">
+              <li>zapatillas</li>
+              </a>
+              <a href="https://adalab.es/">
+                  <li>ropa</li>
+              </a>
+              <a href="https://adalab.es/">
+                  <li>niño/a</li>
+              </a>
+              <a href="https://adalab.es/">
+                  <li>destacados</li>
+              </a>
+              <a href="https://adalab.es/">
+                  <li>tips</li>
+              </a>
           </ul>
-          <div class="footer__logo">
+          <ul class="footer__flex__social">
+          
+          <a href="https://adalab.es/">
+              <li>twitter</li>
+          </a>
+          <a href="https://adalab.es/">
+              <li>instagram</li>
+          </a>
+          <a href="https://adalab.es/">
+              <li>youtube</li>
+          </a>
+          </ul>
+          <div class="footer__flex__logo">
               <p>©2023</p>
               <p>we ❤︎ run</p>
-          
           </div>
 
-
+          </div>
 
       </footer>
     </div>
