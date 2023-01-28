@@ -17,6 +17,7 @@
         font-size: 1.4rem;
         font-family: $font-main-title;
         font-weight: bold;
+        
     }
 
     &__p {
@@ -46,27 +47,35 @@
 .section__grey {
 
     background-color: $color-section;
-    padding: 20px 30px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
 
     &__grid {
-    display: grid;
+        display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 140px 140px 140px;
-        align-items: center;
-        padding: 0 30px;
-    }
-    
-    &__elements {
-        text-align: center;
+        grid-template-rows: 1fr 1fr 1fr;
+            padding: 20px 50px;
+            gap: 40px;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 20px;
+        
+            @media screen and (min-width: 700px) {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                grid-template-rows: 1fr;
+            }
     }
 
+                
     &__h2 {
         font-family: $font-main-title;
         font-size: 1.4rem;
         font-weight: bold;
         text-align: center;
-        margin-top: 20px;
-            margin-bottom: 30px;
+        padding: 30px 50px;
+            text-align: center;
     }
 
     &__h3 {
@@ -82,6 +91,18 @@
             line-height: 1.4;
     }
 
+&__btn {
+    font-family: $font-general;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: $color-white;
+    background-color: $color-elements;
+    border-color: $color-elements;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 23px;
+    padding: 5px 5px;
+    margin-bottom: 50px;
+}
 
-    
 }
