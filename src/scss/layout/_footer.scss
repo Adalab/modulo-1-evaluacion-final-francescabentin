@@ -1,0 +1,36 @@
+.footer {
+    background-color: $color-footer;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-general;
+    font-size: 1rem;
+    line-height: 1.9;
+    padding: 70px 0px;
+
+    @media screen and (min-width: 700px) {
+
+        flex-direction: row;
+        justify-content: center;
+        flex-flow: row-reverse;
+
+        &__social {
+            order: -2;
+        }
+
+
+    }
+
+    &__logo {
+        font-size: 0.8rem;
+        text-transform: lowercase;
+    }
+
+
+
+
+}
