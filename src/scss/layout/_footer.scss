@@ -33,7 +33,10 @@
 
         flex-direction: row;
         justify-content: center;
-    flex-flow: row-reverse;
+        flex-flow: row-reverse;
+        gap: 80px;
+            text-align: left;
+            padding: 20px 0;
 
         
         &__social {
@@ -56,15 +59,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-        top: -5%;
-    left: 50%;
-
-
+    margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -18px;
     &__img {
             width: 20px;
             padding: 5px 0px;
-        
+            
 }
 }
 }

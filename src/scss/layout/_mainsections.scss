@@ -14,7 +14,7 @@
     }
 
     &__h2 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         font-family: $font-main-title;
         font-weight: bold;
         
@@ -41,7 +41,12 @@
         border-radius: 35px;
         max-width: 160px;
         margin-bottom: 30px;
+transition: all 6s ease-in-out;
+
+    &:hover {
+        transform: rotate(3600deg);
     }
+}
 }
 
 .section__grey {
@@ -103,6 +108,11 @@
     border-radius: 23px;
     padding: 5px 5px;
     margin-bottom: 50px;
+    transition: all 6s cubic-bezier(.56, .09, .09, .89);
+    
+        &:hover {
+            transform: scale(190%);
+        }
 }
 
 }
