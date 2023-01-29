@@ -13,63 +13,64 @@
 
 
   &__menu {
-      background-color: $color-elements;
-      width: 40px;
-        height: 38px;
+    background-color: $color-elements;
+    width: 40px;
+    height: 38px;
     position: fixed;
-      left: 0;
+    left: 0;
     top: 0;
-    &__icon {
-        padding: 10px 10px;
-    
-      }
-    }
 
-    &__h1 {
-      @extend .header_style;
-      font-family: $font-main-title;
-      font-size: 2rem;
-      text-transform: uppercase;
-      font-weight: bold;
-      line-height: 1.60;
+    &__icon {
+      padding: 10px 10px;
+
+    }
+  }
+
+  &__h1 {
+    @extend .header_style;
+    font-family: $font-main-title;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.60;
 
     @media screen and (min-width: 700px) {
-        font-size: 4.5rem;
-        line-height: 1.40;
-      }
+      font-size: 4.5rem;
+      line-height: 1.40;
     }
+  }
 
-    &__p {
-      @extend .header_style;
-      font-size: 1rem;
-      text-transform: none;
-      font-family: $font-general;
-      font-weight: lighter;
-      padding: 5px 30px;
-      line-height: 1.20;
-      margin-bottom: 20PX;
+  &__p {
+    @extend .header_style;
+    font-size: 1rem;
+    text-transform: none;
+    font-family: $font-general;
+    font-weight: lighter;
+    padding: 5px 30px;
+    line-height: 1.20;
+    margin-bottom: 20PX;
 
     @media screen and (min-width: 700px) {
       font-size: 1.5rem;
-        padding-top: 0;
-        width: 400px;
-      }
-      }
-
-
-    &__arrow {
-      background-color: $color-white;
-      border-radius: 50px;
-      width: 37px;
-      height: 35px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-      &__img {
-        vertical-align: middle;
-        height: 100%;
-        width: 50%;
-      }
+      padding-top: 0;
+      width: 400px;
     }
+  }
+
+
+  &__arrow {
+    background-color: $color-white;
+    border-radius: 50px;
+    width: 37px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+      vertical-align: middle;
+      height: 100%;
+      width: 50%;
+    }
+  }
 }

@@ -1,72 +1,75 @@
 .footer {
     background-color: $color-footer;
     position: relative;
-    
-        & a {
-            text-decoration: none;
-            color: $color-white;
-    
-            &:hover {
-                color: $color-elements;
-            }
-    
-            &:active {
-                color: $color-black;
-            }
-    
+
+    & a {
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover {
+            color: $color-elements;
         }
-&__flex {
-    color: $color-white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: $font-general;
-    font-size: 1rem;
-    line-height: 1.9;
-    padding: 50px 0px;
-    
 
-    @media screen and (min-width: 700px) {
+        &:active {
+            color: $color-black;
+        }
 
-        flex-direction: row;
-        justify-content: center;
-        flex-flow: row-reverse;
-        gap: 80px;
+    }
+
+    &__flex {
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $font-general;
+        font-size: 1rem;
+        line-height: 1.9;
+        padding: 50px 0px;
+
+
+        @media screen and (min-width: 700px) {
+
+            flex-direction: row;
+            justify-content: center;
+            flex-flow: row-reverse;
+            gap: 80px;
             text-align: left;
             padding: 20px 0;
 
-        
-        &__social {
-            order: -2;
-        
+
+            &__social {
+                order: -2;
+
+            }
+
+            &__logo {
+                font-size: 0.8rem;
+                text-transform: lowercase;
+            }
+        }
     }
 
-    &__logo {
-        font-size: 0.8rem;
-        text-transform: lowercase;
-    }
-}
-}
-
-&__circle {
-    background-color: $color-white;
-    border-radius: 50px;
-    width: 37px;
-    height: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
+    &__circle {
+        background-color: $color-white;
+        border-radius: 50px;
+        width: 37px;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
         margin-right: auto;
         position: relative;
         top: -18px;
-    &__img {
+        animation: changeColor 10s linear infinite;
+
+        &__img {
             width: 20px;
             padding: 5px 0px;
-            
-}
-}
+
+        }
+    }
 }
