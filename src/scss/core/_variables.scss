@@ -9,33 +9,4 @@ $color-footer: #4a4a4a;
 $color-white: #ffff;
 $color-black: #000000;
 
-.header_style {
-    color: $color-white;
-    text-align: center;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    letter-spacing: normal;
-}
 
-//footer - animation //
-
-@keyframes changeColor {
-    0% {
-        background-color: white;
-    }
-
-        20% {
-            background-color: green;
-        }
-
-        60% {
-            background-color: white;
-        }
-    
-        80% {
-            background-color: red;
-        }
-    
-        100% {
-            background-color: red;
-        }
-        }

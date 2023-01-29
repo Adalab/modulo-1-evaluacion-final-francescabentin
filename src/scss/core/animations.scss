@@ -1,0 +1,23 @@
+//footer animation 
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+
+    20% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: white;
+    }
+
+    80% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}

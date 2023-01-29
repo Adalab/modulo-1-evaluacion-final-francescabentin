@@ -22,26 +22,28 @@
 
     &__icon {
       padding: 10px 10px;
-
     }
   }
 
   &__h1 {
-    @extend .header_style;
+    @include header_style;
     font-family: $font-main-title;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1.60;
 
-    @media screen and (min-width: 700px) {
+    @include tablet {
       font-size: 4.5rem;
       line-height: 1.40;
     }
+@include desktop {
+  width: 70%;
+}
   }
 
   &__p {
-    @extend .header_style;
+    @include header_style;
     font-size: 1rem;
     text-transform: none;
     font-family: $font-general;
@@ -50,7 +52,7 @@
     line-height: 1.20;
     margin-bottom: 20PX;
 
-    @media screen and (min-width: 700px) {
+    @include tablet {
       font-size: 1.5rem;
       padding-top: 0;
       width: 400px;

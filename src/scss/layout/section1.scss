@@ -1,0 +1,51 @@
+.section__white {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @include desktop {
+        margin: 20px 140px;
+    }
+
+    &__p-title {
+        font-size: 0.8rem;
+        font-family: $font-general;
+        color: $color-elements;
+    }
+
+    &__h2 {
+        font-size: 1.3rem;
+        font-family: $font-main-title;
+        font-weight: bold;
+
+    }
+
+    &__p {
+        font-size: 1.2rem;
+        font-family: $font-general;
+        letter-spacing: normal;
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    &__btn {
+        text-decoration: none;
+        font-family: $font-general;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: $color-elements;
+        background-color: $color-white;
+        border-color: $color-elements;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 35px;
+        max-width: 160px;
+        margin-bottom: 30px;
+        transition: all 6s ease-in-out;
+
+        &:hover {
+            transform: rotate(3600deg);
+        }
+    }
+}
