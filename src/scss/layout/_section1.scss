@@ -4,13 +4,9 @@
     flex-direction: column;
     gap: 10px;
 
-    @include desktop {
-        margin: 20px 140px;
-    }
-
     &__p-title {
         font-size: 0.8rem;
-        font-family: $font-general;
+        font-family: $font-main-title;
         color: $color-elements;
     }
 
@@ -48,4 +44,7 @@
             transform: rotate(3600deg);
         }
     }
+                                                                                                                                @include desktop {
+                                                                                                                                    margin: 20px 140px;
+                                                                                                                                }
 }

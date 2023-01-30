@@ -1,6 +1,5 @@
 .header {
   background-image: url(../images/cover.jpeg);
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40%;
@@ -10,6 +9,7 @@
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 20px;
+  height: 100vh;
 
 
   &__menu {
@@ -37,9 +37,10 @@
       font-size: 4.5rem;
       line-height: 1.40;
     }
-@include desktop {
-  width: 70%;
-}
+
+                                                                @include desktop {
+                                                                  width: 70%;
+                                                                }
   }
 
   &__p {
