@@ -38,9 +38,9 @@
       line-height: 1.40;
     }
 
-                                                                @include desktop {
-                                                                  width: 70%;
-                                                                }
+        @include desktop {
+          width: 70%;
+        }
   }
 
   &__p {

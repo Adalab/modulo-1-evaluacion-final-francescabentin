@@ -62,10 +62,10 @@
         border-radius: 23px;
         padding: 5px 5px;
         margin-bottom: 50px;
-        transition: all 6s cubic-bezier(.56, .09, .09, .89);
+        transition: all 500ms ease-in-out;
 
         &:hover {
-            transform: scale(2, 1);
+            transform: scale(1.5);
         }
     }
 

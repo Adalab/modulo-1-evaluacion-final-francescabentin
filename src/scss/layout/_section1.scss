@@ -4,6 +4,10 @@
     flex-direction: column;
     gap: 10px;
 
+    @include desktop {
+        margin: 20px 140px;
+    }
+
     &__p-title {
         font-size: 0.8rem;
         font-family: $font-main-title;
@@ -41,10 +45,8 @@
         transition: all 6s ease-in-out;
 
         &:hover {
-            transform: rotate(3600deg);
+            transform: rotate(360deg);
+
         }
     }
-                                                                                                                                @include desktop {
-                                                                                                                                    margin: 20px 140px;
-                                                                                                                                }
 }
