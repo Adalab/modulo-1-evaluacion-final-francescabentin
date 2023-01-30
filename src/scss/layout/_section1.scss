@@ -5,8 +5,14 @@
     gap: 10px;
 
     @include desktop {
-        margin: 20px 140px;
-    }
+        margin: 40px 140px;
+            gap: 20px;
+        }
+        
+        @include tablet {
+            margin: 30px 80px;
+            gap: 20px;
+        }
 
     &__p-title {
         font-size: 0.8rem;
@@ -42,7 +48,7 @@
         border-radius: 35px;
         max-width: 160px;
         margin-bottom: 30px;
-        transition: all 6s ease-in-out;
+        transition: all 600ms ease-in-out;
 
         &:hover {
             transform: rotate(360deg);

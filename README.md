@@ -1,7 +1,7 @@
 
-##Hola!!Bienvenido a mi primer proyecto!!!
+### Hola!!Bienvenido a mi primer proyecto!!!
 
- Me agrada presentar el proyecto final del módulo 1 de Adalab la promoción Salas!! Se trata de una maquetación de un diseño que Adalab nos otorgó, la cual debía debia ser Responsive y utilizar todo lo aprendido en el módulo 1. Fue todo un reto y a la vez me reto a buscar y aprender un montón al poner en práctica toda la teoría.
+ Me agrada presentar el proyecto final del módulo 1 de Adalab de la promoción Salas!! Se trata de una maquetación de un diseño que Adalab nos otorgó, la cual debía debia ser Responsive y utilizar todo lo aprendido en el módulo 1. Fue todo un reto y a la vez ha sido un gran aprendizaje el poner en práctica toda la teoría.
 
 
 ## En el proyecto podrás encontrar:
