@@ -10,7 +10,7 @@
   align-items: center;
   padding-bottom: 20px;
   height: 100vh;
-
+ 
 
   &__menu {
     background-color: $color-elements;
@@ -39,7 +39,8 @@
     }
 
         @include desktop {
-          width: 70%;
+          font-size: 100px;
+          
         }
   }
 
@@ -58,6 +59,10 @@
       padding-top: 0;
       width: 400px;
     }
+     @include desktop {
+          width: 100%;
+          
+        }
   }
 
 
